@@ -16,7 +16,7 @@ public class SpringBootBackendProApplication {
 	@RequestMapping("/")
 	String home() {
 		return "Hola Christian!! desde el SpringBootBackendProApplication "
-				+ " como RestController";
+				+ " como RestController es rapido !!";
 	}
 	
 	public static void main(String[] args) {
