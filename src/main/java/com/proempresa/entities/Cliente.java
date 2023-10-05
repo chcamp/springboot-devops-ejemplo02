@@ -49,7 +49,7 @@ public class Cliente implements Serializable{
 	@Email(message = "No es una dirección de correo bien formada.")
 	private String email;
 	
-	@NotNull(message = "Fecha no puede estar vacia.")	
+	@NotNull(message = "Fecha no puede estar vacia tiene que estas llena.")	
 	@Temporal(TemporalType.DATE)
 	private Date create_at;
 	
